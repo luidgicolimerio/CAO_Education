@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--md = 768 sm = 640  lg = 1024-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAO Educação</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="fundo">
+    <header>
+        <div class="flex justify-between items-center  sm:text-xs md:text-base lg:text-lg">
+            <div class="flex justify-between items-center px-5 py-5 sm:w-24  md:w-40 lg:w-60 sm:h-24  md:h-28 lg:h-32">
+                <img class="sm:h-10  md:h-16 lg:h-20"  src="img/Logo_MPRJ.png" alt="">
+                <div class="w-1  bg-black sm:h-10  md:h-16 lg:h-20"></div>
+                <img class="sm:h-10  md:h-16 lg:h-20" src="img/Logo_CAO.png" alt="">
+            </div>
+            <ul class="flex w-6/12 justify-between pr-12 font-krona-one">
+                <li><a class="hover:opacity-75" href="#equipe">Equipe</a></li>
+                <li><a class="hover:opacity-75" href="#objetivos">Objetivos</a></li>
+                <li><a class="hover:opacity-75" href="#projetos">Projetos</a></li>
+                <li><a class="hover:opacity-75" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        <div class="w-full h-2 ambar"></div>
+    </header>
+    <section >
+        <div class="flex w-full wine h-96 items-center justify-around">
+            <div class="font-krona-one">
+                <h1 class="uppercase text-white text-3xl pb-6 sm:text-base md:text-xl lg:text-2xl">Panorama Educação</h1>
+                <h2 class="hgray text-xl pb-12 sm:text-xs md:text-base lg:text-lg">Plataforma que reúne dados<br> da política pública educacional</h2>
+                <a href="#projetos"><button class="hgray uppercase ambar py-2 px-12 rounded-3xl">saiba mais</button></a>
+            </div>
+            <img class="sm:h-40  md:h-48 lg:h-56" src="img/panoramaeduc.png" alt="Panorama Educação">
+        </div>
+    </section>
+    <section>
+        <div id="equipe" class="flex flex-col pl-32 pt-24 bg-slate-400">
+            <div class="flex items-center">
+                <div class="w-2 h-12 ambar mr-3 sm:h-4 md:h-6 lg:h-8"></div>
+                <h1 class="uppercase font-krona-one text-5xl sm:text-xl md:text-2xl lg:text-3xl">Equipe</h1>
+            </div>
+            <p class="text-black text-3xl mt-12 sm:text-base md:text-lg lg:text-2xl">O centro de apoio operacional a educação é  composto por um equipe composta
+                por promotores de justiça, procuradores, servidores administrativos, e profissionais 
+                especializados em diversas aéreas da educação.</p>
+            <div class="swiper mySwiper mt-7">
+                <div class="swiper-wrapper">  
+                    <div class="swiper-slide flex-col p-6 border-2 bambar">
+                        <img src="img/icon_economista.png" alt="">
+                        <h3 class="text-xl uppercase twine pt-6">Economista</h3>
+                        <p class="text-sm pt-6 text-black">Responsáveis pela análise de dados econômicos relacionados à educação, como alocação de recursos, orçamentos escolares, impacto de políticas públicas na economia educacional e financiamento da educação. Essa análise econômica pode embasar recomendações e pareceres técnicos sobre investimentos e políticas financeiras.</p>
+                    </div>
+                    <div class="swiper-slide flex-col p-6 border-2 bambar">
+                        <img src="img/icon_ped.png" alt="">
+                        <h3 class="text-xl uppercase twine pt-6">Pedagogos</h3>
+                        <p class="text-sm pt-6 text-black">Contribuem com seu conhecimento em práticas pedagógicas, currículo escolar, metodologias de ensino e aprendizagem. Podem oferecer orientações sobre melhores práticas educacionais, auxiliando na elaboração de recomendações para aprimorar a qualidade do ensino nas instituições.</p>
+                    </div>
+                    <div class="swiper-slide flex-col p-6 border-2 bambar">
+                        <img src="img/icon_mat.png" alt="">
+                        <h3 class="text-xl uppercase twine pt-6">Estátistico/Matemáticos</h3>
+                        <p class="text-sm pt-6 text-black">Desempenham um papel crucial na coleta, análise e interpretação de dados estatísticos sobre o desempenho educacional, taxas de evasão escolar, índices de qualidade da educação, entre outros. Eles podem utilizar modelos matemáticos para identificar tendências, padrões e avaliar a eficácia de programas educacionais.</p>
+                    </div>
+                    <div class="swiper-slide flex-col p-6 border-2 bambar">
+                        <img src="img/icon_nutri.png" alt="">
+                        <h3 class="text-xl uppercase twine pt-6">Nutricionistas</h3>
+                        <p class="text-sm pt-6 text-black">Esses profissionais estão envolvidos em questões relacionadas à alimentação escolar, garantindo a qualidade nutricional das refeições oferecidas nas escolas.Trabalham na avaliação de cardápios, orientação sobre hábitos alimentares saudáveis e garantia do cumprimento de normativas de alimentação escolar.</p>
+                    </div>
+                </div>  
+            </div>
+            <p class="text-black text-3xl mt-20 sm:text-base md:text-lg lg:text-2xl">Ter em nossa equipe profissionais de diversas áreas traz uma perspectiva única
+                para o CAO Educação MPRJ, oferecendo conhecimentos específicos que se
+                complementam para abordar os desafios e aspectos variados do sistema
+                educacional. Juntos, eles podem colaborar na elaboração de estratégias, políticas
+                e ações que promovam uma educação mais completa e de qualidade para a
+                sociedade.</p>  
+        </div>
+    </section>
+    <section>
+        <div id="objetivos" class="flex flex-col pl-32 pt-24">
+            <div class="flex items-center">
+                <div class="w-2 h-12 ambar mr-3 sm:h-4 md:h-6 lg:h-8"></div>
+                <h1 class="uppercase font-krona-one text-5xl sm:text-xl md:text-2xl lg:text-3xl">Objetivos</h1>
+            </div>
+            <div class="flex w-full h-auto mt-10 justify-between pr-7">
+                <div class="bg-white w-80 h-40 border-4 bambar flex flex-col items-center justify-center px-4 pt-2">
+                    <h3 class="tambar font-krona-one text-2xl">Atuação na área educacional</h3>
+                    <button id='caret1' class="mt-5 caret" onclick="liga('educacao', 'caret1')"></button>
+                </div>
+                <div class="bg-white w-80 h-40 border-4 bambar flex flex-col items-center justify-center px-4 pt-2">
+                    <h3 class="tambar font-krona-one text-2xl">Capacitação e apoio técnico</h3>
+                    <button id='caret2' class="mt-5 caret" onclick="liga('capacitacao', 'caret2')"></button>
+                </div>
+                <div class="bg-white w-80 h-40 border-4 bambar flex flex-col items-center justify-center px-2 pt-2">
+                    <h3 class="tambar font-krona-one text-2xl">Parcerias e ações colaborativas</h3>
+                    <button id='caret3' class="mt-5 caret" onclick="liga('parcerias', 'caret3')"></button>
+                </div>
+            </div>
+        </div>
+        <div id='educacao' class="hidden w-full h-96 items-center justify-around bg-white mt-16 px-16 info fade-in-out">
+            <img class="mr-20 border-4 bambar" src="img/area_educacional.png" alt="">
+            <p class="tambar font-krona-one text-2xl">O CAO Educação busca promover e incentivar ações que contribuam para o aprimoramento da educação no estado do Rio de Janeiro. Busca garantir o cumprimento das leis e normativas relacionadas à educação, defendendo os direitos dos alunos, professores e demais profissionais da área.</p>
+        </div>
+        <div id='capacitacao' class="hidden w-full h-96 items-center justify-around bg-white mt-16 px-16 info fade-in-out">
+            <img class="mr-20 border-4 bambar" src="img/Capacitacao.png" alt="">
+            <p class="tambar font-krona-one text-2xl">O CAO Educação busca promover e incentivar ações que contribuam para o aprimoramento da educação no estado do Rio de Janeiro. Busca garantir o cumprimento das leis e normativas relacionadas à educação, defendendo os direitos dos alunos, professores e demais profissionais da área.</p>
+        </div>
+        <div id='parcerias' class="hidden w-full h-96 items-center justify-around bg-white mt-16 px-16 info fade-in-out">
+            <img class="mr-20 border-4 bambar" src="img/Parcerias.png" alt="">
+            <p class="tambar font-krona-one text-2xl">O CAO Educação busca promover e incentivar ações que contribuam para o aprimoramento da educação no estado do Rio de Janeiro. Busca garantir o cumprimento das leis e normativas relacionadas à educação, defendendo os direitos dos alunos, professores e demais profissionais da área.</p>
+        </div>
+    </section>
+    <section>
+        <div id="projetos" class="flex flex-col pl-32 pt-24">
+            <div class="flex items-center">
+                <div class="w-2 h-12 ambar mr-3 sm:h-4 md:h-6 lg:h-8"></div>
+                <h1 class="uppercase font-krona-one text-5xl sm:text-xl md:text-2xl lg:text-3xl">Projetos</h1>
+            </div>
+            <p class="text-black text-3xl mt-12 sm:text-sm md:text-base lg:text-xl">Nosso compromisso é impulsionar a educação no Rio de Janeiro por meio de projetos que ampliem o acesso e a qualidade do ensino. Trabalhamos incansavelmente para criar oportunidades de estudo e desenvolver iniciativas que facilitem a análise e melhorem o cenário educacional em todo o estado.</p>
+            <div class="flex justify-center items-center mt-24">
+                <img class="mr-40 w-80 h-80 scale-75 sm:h-32 md:h-44 lg:h-52" src="img/Panorana.png" alt="">
+                <div class="">
+                    <h2 class="font-krona-one text-4xl mb-2 sm:text-xl md:text-2xl lg:text-3xl">Panorama Educação</h2>
+                    <div class="w-3/5 h-3 ambar mb-9"></div>
+                    <p class="font-krona-one text-2xl opacity-75 mr-5 sm:text-xs md:text-base lg:text-lg">A plataforma Panorama Educação auxilia na fiscalização da qualidade do serviço ofertado pelos sistemas de ensino em todas as etapas da educação básica. A plataforma é uma ferramenta de análise de dados educacionais que permite a visualização de informações sobre a educação no estado do Rio de Janeiro, como o número de matrículas, a taxa de abandono escolar, a quantidade de professores, entre outros.</p>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-36">
+                <div class="">
+                    <h2 class="font-krona-one text-4xl mb-2 sm:text-xl md:text-2xl lg:text-3xl">Educação Sem Distinção</h2>
+                    <div class="w-4/6 h-3 ambar mb-9"></div>
+                    <p class="font-krona-one text-2xl opacity-75 sm:text-xs md:text-base lg:text-lg">A plataforma Panorama Educação auxilia na fiscalização da qualidade do serviço ofertado pelos sistemas de ensino em todas as etapas da educação básica. A plataforma é uma ferramenta de análise de dados educacionais que permite a visualização de informações sobre a educação no estado do Rio de Janeiro, como o número de matrículas, a taxa de abandono escolar, a quantidade de professores, entre outros.</p>
+                </div>
+                <img class="ml-40 w-80 h-80 scale-50 mr-10 sm:h-32 md:h-44 lg:h-52" src="img/Sem_Dist.png" alt="">
+            </div>
+    </section>
+    <footer class="wine mt-12">
+        <div id="contato" class="flex w-full h-96 justify-around">
+            <div class="flex flex-col w-80 p-5 mt-16">
+                <h1 class="text-white font-krona-one text-3xl">Contato</h1>
+                <div class="flex w-auto h-auto p-5 pl-0 items-center">
+                    <img src="img/casa.png" alt="Casa">
+                    <p class="text-sm text-white ml-3">Centro - Rio de Janeiro, RJ - Brasil - CEP 20020-080</p>
+                </div>
+                <div class="flex w-auto h-auto p-5 pl-0 items-center">
+                    <img src="img/telefone.png" alt="Casa">
+                    <p class="text-sm text-white ml-3">(21) 3915-8200 / (21) 2550-9050</p>
+                </div>
+                <div class="flex w-auto h-auto p-5 pl-0 items-center">
+                    <img src="img/email.png" alt="Casa">
+                    <p class="text-sm text-white ml-3">contato@caoeduca.com</p>
+                </div>
+            </div>
+            <div class="flex flex-col w-80 p-5 mt-16">
+                <h1 class="text-white font-krona-one text-3xl">Links</h1>
+                <a class="text-white mt-2" href="https://www.mprj.mp.br/" target="_blank">MPRJ</a>
+                <a class="text-white mt-2" href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao" target="_blank">CAO Educação</a>
+                <a class="text-white mt-2" href="https://tableau2020.mprj.mp.br/t/MPMAPAS/views/Panorama_Educacao_Prototipo1/CAPA?%3Aembed=y&%3Aiid=1&%3AisGuestRedirectFromVizportal=y" target="_blank">Panorama Educação</a>
+                <a class="text-white mt-2" href="https://www.mprj.mp.br/conheca-o-mprj/areas-de-atuacao/educacao/projetos-e-campanhas/educacao-sem-distincao" target="_blank">Educação sem Distinção</a>
+            </div>
+            <div class="flex flex-col w-80 p-5 mt-16">
+                <h1 class="text-white font-krona-one text-3xl">Redes</h1>
+                <div class="flex w-36 h-auto p-5 pl-0 items-center justify-between">
+                    <a href="https://www.facebook.com/MPRJ.Oficial" target="_blank"><img src="img/Facebook.png" alt="Facebook"></a>
+                    <a href="https://twitter.com/MP_RJ" target="_blank"><img src="img/Twittter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/mprj.oficial/" target="_blank"><img src="img/Insta.png" alt="Instagram"></a>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" ></script>
+    <script src="index.js"></script>
+</body>
+</html>

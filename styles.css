@@ -1,0 +1,84 @@
+.font-krona-one {
+    font-family: 'Krona One', sans-serif;
+}
+.ambar{
+    background: #D07D1D;
+}
+.fundo{
+    background: #F3F3F3;
+}
+.bambar{
+    border-color: #D07D1D;
+}
+.tambar{
+    color: #D07D1D;
+}
+.wine{
+    background: #702826;
+}
+.twine{
+    color: #702826;
+}
+.hgray{
+    color: #F2F2F2;
+    opacity: 0.75;
+}
+.hover\:opacity-75:hover{
+    color: #D07D1D
+}
+button:hover{
+    opacity: 1;
+    font-weight: 900;
+}
+.caret{
+    width: 0;
+    heigth: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 13px solid #D07D1D;
+    transition: 0.3s;
+}
+.caret-rotate{
+    transform: rotate(180deg);
+}
+
+.info {
+    transition: opacity 0.5s ease-in-out; 
+    opacity: 1;
+}
+.fade-in-out {
+    opacity: 0;
+}
+.esconde{
+    display: flex;
+}
+.swiper {
+    width: 415px;
+    height: 450px;
+  }
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+.swiper-slide:nth-child(1n) {
+    background-color: rgb(255, 255, 255);
+  }
+
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(255, 255, 255);
+  }
+
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(255, 255, 255);
+  }
+
+.swiper-slide:nth-child(4n) {
+    background-color: rgb(255, 255, 255);
+  }
